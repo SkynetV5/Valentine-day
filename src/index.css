@@ -1,0 +1,209 @@
+body{
+  font-family: "Protest Riot", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#valentine-card{
+  background-color: #fc6c6c;
+  margin-right: auto;
+  margin-left: auto;
+  width: 75%;
+  height: 900px;
+  -webkit-box-shadow: -3px 1px 21px -4px rgba(108, 95, 95, 1);
+  -moz-box-shadow: -3px 1px 21px -4px rgba(108, 95, 95, 1);
+  box-shadow: -3px 1px 21px -4px rgba(108, 95, 95, 1);
+  border-radius: 10px;
+}
+
+#valentine-p{
+  padding-top: 20px;
+  font-size: 50px;
+  color: white;
+}
+
+img{
+  margin-top: 30px;
+  -webkit-box-shadow: 1px 17px 31px -8px rgba(225, 0, 68, 1);
+-moz-box-shadow: 1px 17px 31px -8px rgba(225, 0, 68, 1);
+box-shadow: 1px 17px 31px -8px rgba(225, 0, 68, 1);
+}
+
+#buttons-div{
+  display: flex;
+  width: 50%;
+  height: 150px;
+  margin-left: auto ;
+  margin-right: auto;
+}
+
+#button-yes{
+  align-items: center;
+  margin-right: 40px;
+  justify-content: center;
+  line-height: 1;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+  width: 200px;
+  height: 40px;
+  font-weight: bold;
+  border-bottom: 5px solid #01FA68;
+  transition: 0.3s;
+  background-color: #01FA68;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  cursor:pointer
+}
+#v1{
+  align-items: center;
+  margin-right: 40px;
+  justify-content: center;
+  line-height: 1;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+  width: 400px;
+  height: 70px;
+  font-weight: bold;
+  border-bottom: 5px solid #01FA68;
+  transition: 0.3s;
+  background-color: #01FA68;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  cursor:pointer
+}
+#v2{
+  align-items: center;
+  margin-right: 40px;
+  justify-content: center;
+  line-height: 1;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+  width: 500px;
+  height: 80px;
+  font-weight: bold;
+  border-bottom: 5px solid #01FA68;
+  transition: 0.3s;
+  background-color: #01FA68;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  cursor:pointer
+}
+#v3{
+  align-items: center;
+  margin-right: 40px;
+  justify-content: center;
+  line-height: 1;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+  width: 600px;
+  height: 90px;
+  font-weight: bold;
+  border-bottom: 5px solid #01FA68;
+  transition: 0.3s;
+  background-color: #01FA68;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  cursor:pointer
+}
+#v4{
+  align-items: center;
+  margin-right: 40px;
+  justify-content: center;
+  line-height: 1;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+  width: 1200px;
+  height: 120px;
+  font-weight: bold;
+  border-bottom: 5px solid #01FA68;
+  transition: 0.3s;
+  background-color: #01FA68;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  cursor:pointer
+}
+#v5{
+  align-items: center;
+  margin-right: 40px;
+  justify-content: center;
+  line-height: 1;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+  width: 1400px;
+  height: 150px;
+  font-weight: bold;
+  border-bottom: 5px solid #01FA68;
+  transition: 0.3s;
+  background-color: #01FA68;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  cursor:pointer
+}
+#v6{
+  align-items: center;
+  margin-right: 40px;
+  justify-content: center;
+  line-height: 1;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+  width: 1800px;
+  height: 200px;
+  font-weight: bold;
+  border-bottom: 5px solid #01FA68;
+  transition: 0.3s;
+  background-color: #01FA68;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  cursor:pointer
+}
+#button-yes:hover {
+  border-bottom-width: 0;
+  transform: translateY(5px);
+}
+#button-no{
+  align-items: center;
+  justify-content: center;
+  margin-left: 40px;
+  line-height: 1;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+  width: 200px;
+  height: 40px;
+  font-weight: bold;
+  border-bottom: 5px solid #F22F32;
+  transition: 0.3s;
+  background-color: #F22F32;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  cursor:pointer
+}
+
+#button-no:hover {
+  border-bottom-width: 0;
+  transform: translateY(5px);
+}
+
+#div-yes{
+  padding: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 50%;
+  height: 250px;
+}
